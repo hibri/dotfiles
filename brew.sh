@@ -101,6 +101,20 @@ brew install tree
 brew install vbindiff
 brew install webkit2png
 brew install zopfli
+brew install oath-toolkit
+brew install httpie
+
+#Install ops and dev tools tools
+brew install go
+brew install node
+brew install rust
+
+
+brew install terraform
+brew install packer
+brew install consul
+brew install vagrant
+brew install azure-cli
 
 # Remove outdated versions from the cellar.
 brew cleanup
