@@ -2,6 +2,7 @@
 export GOPATH="$HOME/Projects/go";
 export PATH="$HOME/bin:$PATH";
 export PATH="$GOPATH/bin:$PATH";
+export PATH="/usr/local/sbin:$PATH"
 
 
 # Load the shell dotfiles, and then some:
