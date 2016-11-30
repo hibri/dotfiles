@@ -153,3 +153,4 @@ alias reload="exec $SHELL -l"
 #docker aliases
 alias dockercleanimages='docker rmi $(docker images -q --filter "dangling=true")'
 alias dockercleanvolumes='docker volume rm $(docker volume ls -qf dangling=true)'
+alias dockerdefaultmachine='eval $(docker-machine env default)'
