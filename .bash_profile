@@ -1,3 +1,4 @@
+source ~/.profile
 # Add `~/bin` to the `$PATH`
 export GOPATH="$HOME/Projects/go";
 export PATH="$HOME/bin:$PATH";
@@ -50,3 +51,6 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+#HO vars
+export TF_VAR_created_by=marzookh
